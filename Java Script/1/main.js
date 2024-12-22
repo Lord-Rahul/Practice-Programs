@@ -4,18 +4,18 @@ const port = 3000
 
 app.set('view engine', 'ejs');
 
-let searchText="teri maa ki chuut"
-let siteName="chut ka deewana"
+let searchText="teri jai"
+let siteName="pyar ka deewana"
  let arr =[,243,43,54,56]
 
 app.use((req,res,next)=>{
-    console.log("teri maa ki chut bhadve ")
+    console.log("teri jai ho ")
     next();
 });
 
 app.get('/', (req, res) => {
   let title ="teeri ma ki chut "
-  let content = "teeri maa ki chut is a gali used to get a fluing person in ground "
+  let content = "teeri jai ho to get a person in ground "
       res.render("index", {siteName , searchText,arr})
 })
 
