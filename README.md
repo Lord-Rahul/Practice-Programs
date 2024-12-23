@@ -23,3 +23,31 @@ The repository includes the following:
 
 ```bash
 git clone https://github.com/Lord-Rahul/Practice-Programs.git
+```
+
+Navigate to the desired project folder.
+
+If it’s a static website, you can simply open the index.html file in your browser.
+
+If it’s a web app, make sure to install dependencies (if applicable):
+
+```bash
+cd project-folder
+npm install
+```
+Run the development server (for Node.js apps or other frameworks):
+```bash
+npm start
+```
+Open your browser and navigate to http://localhost:3000 (or whichever port your project runs on).
+Contributions
+Feel free to fork this repository, clone it, and contribute to the projects. Pull requests are welcome!
+
+License
+This repository is open-source and available under the MIT License. See the LICENSE file for more details.
+
+Contact
+If you have any questions or suggestions, feel free to reach out to me at [your email] or through my GitHub profile at GitHub Profile.
+
+Happy coding! 🚀
+
