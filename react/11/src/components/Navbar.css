@@ -1,0 +1,36 @@
+
+nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(192, 85, 222);
+    padding: 20px;
+
+}
+
+ul {
+    color: white;
+    display: flex;
+    gap: 34px;
+
+}
+
+li {
+    list-style: none;
+
+
+}
+li >a{
+    font-style: none;
+}
+
+.card{
+    border:2px solid black;
+    height:150px;
+    width:100px;
+    margin:15px;
+    gap:20px
+
+}
+
