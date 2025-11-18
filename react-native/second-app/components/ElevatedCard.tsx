@@ -4,30 +4,34 @@ import React from "react";
 export default function ElevatedCard() {
   return (
     <View>
-      <Text style={styles.headingText}>Elevated Card</Text>
-      <ScrollView horizontal={true} style={styles.container}>
-        <View style={[styles.card, styles.cardElevated]}>
-          <Text>Tap me</Text>
-        </View>
-        <View style={[styles.card, styles.cardElevated]}>
-          <Text>Tap me</Text>
-        </View>
-        <View style={[styles.card, styles.cardElevated]}>
-          <Text>Tap me</Text>
-        </View>{" "}
-        <View style={[styles.card, styles.cardElevated]}>
-          <Text>Tap me</Text>
-        </View>
-        <View style={[styles.card, styles.cardElevated]}>
-          <Text>Tap me</Text>
-        </View>
-        <View style={[styles.card, styles.cardElevated]}>
-          <Text>Tap me</Text>
-        </View>
-        <View style={[styles.card, styles.cardElevated]}>
-          <Text>Tap me</Text>
-        </View>
-      </ScrollView>
+      <View>
+        <Text style={styles.headingText}>Elevated Card</Text>
+      </View>
+      <View>
+        <ScrollView horizontal style={styles.container}>
+          <View style={[styles.card, styles.cardElevated]}>
+            <Text>Tap me</Text>
+          </View>
+          <View style={[styles.card, styles.cardElevated]}>
+            <Text>Tap me</Text>
+          </View>
+          <View style={[styles.card, styles.cardElevated]}>
+            <Text>Tap me</Text>
+          </View>{" "}
+          <View style={[styles.card, styles.cardElevated]}>
+            <Text>Tap me</Text>
+          </View>
+          <View style={[styles.card, styles.cardElevated]}>
+            <Text>Tap me</Text>
+          </View>
+          <View style={[styles.card, styles.cardElevated]}>
+            <Text>Tap me</Text>
+          </View>
+          <View style={[styles.card, styles.cardElevated]}>
+            <Text>Tap me</Text>
+          </View>
+        </ScrollView>
+      </View>
     </View>
   );
 }

@@ -1,4 +1,5 @@
 import ElevatedCard from "@/components/ElevatedCard";
+import FancyCard from "@/components/FancyCard";
 import FlatCard from "@/components/FlatCard";
 import React from "react";
 import { View, Text, ScrollView,StyleSheet } from "react-native";
@@ -11,6 +12,7 @@ const App = () => {
         {/* <Text>Hello world !</Text> */}
         <FlatCard />
         <ElevatedCard />
+        <FancyCard></FancyCard>
       </ScrollView>
     </SafeAreaView>
   );
