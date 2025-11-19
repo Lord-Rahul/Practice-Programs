@@ -8,27 +8,29 @@ export default function ElevatedCard() {
         <Text style={styles.headingText}>Elevated Card</Text>
       </View>
       <View>
-        <ScrollView horizontal style={styles.container}>
-          <View style={[styles.card, styles.cardElevated]}>
-            <Text>Tap me</Text>
-          </View>
-          <View style={[styles.card, styles.cardElevated]}>
-            <Text>Tap me</Text>
-          </View>
-          <View style={[styles.card, styles.cardElevated]}>
-            <Text>Tap me</Text>
-          </View>{" "}
-          <View style={[styles.card, styles.cardElevated]}>
-            <Text>Tap me</Text>
-          </View>
-          <View style={[styles.card, styles.cardElevated]}>
-            <Text>Tap me</Text>
-          </View>
-          <View style={[styles.card, styles.cardElevated]}>
-            <Text>Tap me</Text>
-          </View>
-          <View style={[styles.card, styles.cardElevated]}>
-            <Text>Tap me</Text>
+        <ScrollView horizontal={true}>
+          <View style={styles.container}>
+            <View style={[styles.card, styles.cardElevated]}>
+              <Text>Tap me</Text>
+            </View>
+            <View style={[styles.card, styles.cardElevated]}>
+              <Text>Tap me</Text>
+            </View>
+            <View style={[styles.card, styles.cardElevated]}>
+              <Text>Tap me</Text>
+            </View>
+            <View style={[styles.card, styles.cardElevated]}>
+              <Text>Tap me</Text>
+            </View>
+            <View style={[styles.card, styles.cardElevated]}>
+              <Text>Tap me</Text>
+            </View>
+            <View style={[styles.card, styles.cardElevated]}>
+              <Text>Tap me</Text>
+            </View>
+            <View style={[styles.card, styles.cardElevated]}>
+              <Text>Tap me</Text>
+            </View>
           </View>
         </ScrollView>
       </View>
@@ -59,12 +61,12 @@ const styles = StyleSheet.create({
   cardElevated: {
     backgroundColor: "#CAD5E2",
     elevation: 12,
-    shadowOffset: {
-      width: 50,
-      height: 50,
-    },
-    shadowColor: "#df000033",
-    shadowOpacity: 0.6,
-    shadowRadius: 4,
+    // shadowOffset: {
+    //   width: 50,
+    //   height: 50,
+    // },
+    // shadowColor: "#df000033",
+    // shadowOpacity: 0.6,
+    // shadowRadius: 4,
   },
 });
