@@ -14,9 +14,9 @@ const App = () => {
         {/* <Text>Hello world !</Text> */}
         <FlatCard />
         <ElevatedCard />
+        <ContactList />
         <FancyCard />
         <ActionCard />
-        <ContactList />
       </ScrollView>
     </SafeAreaView>
   );
