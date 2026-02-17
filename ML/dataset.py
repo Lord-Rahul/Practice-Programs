@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
+import seaborn as sb
 import plotly.express as px
 import plotly.graph_objects as go
 import os
@@ -16,3 +16,4 @@ df.head()
 print(df.head())
 print(df.tail())
 print(df.info())
+print(df.shape)
