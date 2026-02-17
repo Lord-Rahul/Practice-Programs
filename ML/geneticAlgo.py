@@ -18,10 +18,14 @@ population = [createChromosome() for _ in range(populationSize)]
 
 for gen in range (generations):
     
+    # print('loop for each gen :')
+    
     fitnessValues = []
     for c in population:
         x= binaryToDecimal(c)
         fitnessValues.append(fitness(x))
+
+    # print("fitness values: ",fitnessValues)
         
     sortedPop=sorted(
         zip(population,fitnessValues),
@@ -38,19 +42,25 @@ for gen in range (generations):
     child1 = parent1[:point]+parent2[point:]
     child2 = parent2[:point]+parent1[point:]
     
+    
+   
     def mutate(chromosome):
+        # print('chromosomes ', chromosome)
         new=''
         for bit in chromosome:
             if random.random()<mutationRate:
                 new += '1' if bit == '0' else '0'
             else:
                 new +=bit
+        # print("new ",new)
         return new
+        
     
     child1 = mutate(child1)
     child2= mutate(child2)
     
     population=[parent1,parent2 ,child1,child2]
+    # print("family: ", population)
     
     best = max(population,key=lambda c: fitness(binaryToDecimal(c)))
     bestX = binaryToDecimal(best)
