@@ -6,14 +6,14 @@ const Home = () => {
   const [roll, setRoll] = useState("");
   const [name, setName] = useState("");
   const [course, setCourse] = useState("");
-  const [year, setYear] = useState(0);
+  const [year, setYear] = useState("");
 
   const submitHandler = () => {
     if (!roll || !name || !course || !year) {
       Alert.alert("Error : all fields are required ");
       return;
     }
-    if (isNaN(year)) {
+    if (isNaN(Number(year))) {
       Alert.alert(`error: year must be number`);
       return;
     }
