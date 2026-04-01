@@ -1,5 +1,6 @@
 import { View, Text, Alert, TextInput, Button } from "react-native";
 import { useState } from "react";
+import { StyleSheet } from "react-native";
 import React from "react";
 
 const Home = () => {
@@ -46,6 +47,7 @@ const Home = () => {
       <Button title="Submit" onPress={submitHandler} />
     </View>
   );
+
 };
 
 export default Home;
