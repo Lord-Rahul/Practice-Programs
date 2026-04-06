@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission Form | Baddi University</title>
+  </head>
+  <body style="background-color: azure">
+    <h1>BU Admission Form</h1>
+    <form  style="display: grid;  width: 20%; color: rgba(0, 90, 104, 0.737)">
+      <label for="name">Name : </label>
+      <input required placeholder="enter your name" name="name" type="text" />
+
+      <div>
+        <label id="gender" name="gender" for="">Gender </label>
+        <input id="male" type="radio" name="gender" /><label for="">male</label>
+        <input id="female" type="radio" name="gender" /><label for=""
+          >female</label
+        >
+      </div>
+      <br />
+
+      <label for="dob">Date of Birth : </label>
+      <input
+        required
+        placeholder="enter your Date of Birth"
+        name="dob"
+        type="date"
+      />
+      <br />
+
+       <label for="email">Email : </label>
+      <input required placeholder="abc@xyz.com" name="email" type="email" />
+
+      <br>
+
+       <label for="number">Number : </label>
+      <input required placeholder="+91-7876025431" name="number" type="text" />
+      <label for="address1">Street Address : </label>
+      <input
+        required
+        placeholder="13, xyz street"
+        name="address1"
+        type="text"
+      />
+      <br />
+      <label for="address2">City : </label>
+      <input required placeholder="city" name="address2" type="text" />
+
+      <br />
+
+      <label for="District">District</label>
+      <select name="District" id="District">
+        <option value="null">--select--</option>
+        <option value="Mandi">Mandi</option>
+        <option value="Chamba">Chamba</option>
+        <option value="Kangra">Kangra</option>
+        <option value="Hamirpur">Hamirpur</option>
+        <option value="Bilaspur">Bilaspur</option>
+        <option value="Una">Una</option>
+        <option value="Solan">Solan</option>
+        <option value="Shimla">Shimla</option>
+        <option value="Kinanaur">Kinanaur</option>
+        <option value="Sirmaur">Sirmaur</option>
+        <option value="Lahual&Spiti">Lahual&Spiti</option>
+      </select>
+      <br />
+      <label for="state">State : </label>
+      <input required placeholder="state" name="state" type="text" />
+      <br />
+      <label for="course">course</label>
+      <select name="course" id="course">
+        <option value="NULL">--select--</option>
+        <option value="bpharma">B.Pharmacy</option>
+        <option value="btech">B.Tech</option>
+        <option value="bsc">B.Sc</option>
+        <option value="bba">BBA</option>
+      </select>
+<br>
+      <input type="submit" onclick="alert('form submitted')" value="submit">
+    </form>
+  </body>
+</html>

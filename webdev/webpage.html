@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpage</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+
+      .logo > img {
+        width: 40%;
+      }
+
+      .logo > p {
+        font-size: x-large;
+        font-weight: 800;
+      }
+      .hero-image1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .hero-image {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .footer {
+        display: flex;
+        justify-content: space-between;
+      }
+      .hero-image > img {
+        height: 700px;
+      }
+
+      footer {
+        background-color: azure;
+        padding-top: 10%;
+        padding-bottom: 15%;
+      }
+
+      footer > div {
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      footer > div > div {
+        display: flex;
+        flex-direction: column;
+      }
+
+      main {
+        margin: 20%;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="logo">
+            <img
+              src="https://www.line-stickers.com/wp-content/uploads/2016/04/Crayon-Shinchan-.png"
+              alt="logo"
+            />
+            <p>Shinchan</p>
+          </div>
+          <div>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Register</a>
+            <a href="#">login</a>
+          </div>
+        </nav>
+
+        <section class="hero">
+          <div class="hero-image">
+            <img src="image.png" alt="" />
+
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur odio eveniet recusandae, molestiae suscipit officia
+                eum aperiam culpa qui eos voluptatem maiores sequi nesciunt
+                nulla in? Deleniti perspiciatis sapiente quidem praesentium
+                repellat, maiores mollitia pariatur, cupiditate, dolore enim
+                corporis autem odit est aperiam rem id dicta eveniet! Fugiat
+                officia amet modi a magnam, voluptate labore dolor odio!
+              </p>
+            </div>
+          </div>
+        </section>
+        <hr />
+        <section class="hero-image1">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur odio eveniet recusandae, molestiae suscipit officia
+              eum aperiam culpa qui eos voluptatem maiores sequi nesciunt nulla
+              in? Deleniti perspiciatis sapiente quidem praesentium repellat,
+              maiores mollitia pariatur, cupiditate, dolore enim corporis autem
+              odit est aperiam rem id dicta eveniet! Fugiat officia amet modi a
+              magnam, voluptate labore dolor odio!
+            </p>
+          </div>
+          <div class="hero-image">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEpaZx5_0rq_0y-A7QUL454AdhhJWYSdTkdg&s"
+              alt=""
+            />
+          </div>
+        </section>
+      </header>
+
+      <hr />
+
+      <main>
+        <form
+          action="
+        "
+        >
+          <div>
+            <label for="name">Name : </label>
+            <input placeholder="name" name="name" type="text" />
+            <label for="number">Number : </label>
+            <input placeholder="number" tupe="text" />
+            <label for="Gender">Gender : </label>
+            <input type="radio" name="gender" id="" />male
+            <input type="radio" name="gender" id="" />female
+          </div>
+          <input
+            onclick="alert('form submitted')"
+            type="submit"
+            value="submit"
+          />
+        </form>
+      </main>
+
+      <hr />
+
+      <footer>
+        <div class="footer">
+          <div>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Register</a>
+            <a href="#">login</a>
+          </div>
+          <div>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Register</a>
+            <a href="#">login</a>
+          </div>
+          <div>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Register</a>
+            <a href="#">login</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

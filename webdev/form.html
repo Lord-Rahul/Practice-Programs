@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Handelling</title>
+  </head>
+  <body style="background-color: azure">
+    <h1>Lets create our First Form</h1>
+    <div>
+      <form
+
+      .logo {
+       >
+        <label for="">Name</label>
+        <input required placeholder="name" type="text" />
+
+        <label for="">Email ID</label>
+        <input required placeholder="email@abc.com" type="email" />
+
+        <label for="">Mobile Number</label>
+        <input required placeholder="+91 6230525430" type="number" />
+
+        <label for="">Password</label>
+        <input required placeholder="password" type="password" />
+        <label for="district">District</label>
+        <select name="district" id="district">
+          <option value="null">--select--</option>
+          <option value="mandi">mandi</option>
+          <option value="mandi">hamirpur</option>
+          <option value="mandi">shimla</option>
+          <option value="mandi">kangra</option>
+        </select>
+        <div>
+          <label id="gender" name="gender" for="">Gender </label>
+          <input id="male" type="radio" name="gender" /><label for=""
+            >male</label
+          >
+            <input id="female" type="radio" name="gender" /><label for=""
+            >female</label
+          >
+        </div>
+        <div>
+          <label for="hobbies"> Hobbies </label>
+          <input type="checkbox" for="hobbies" />Reading
+          <input type="checkbox" for="hobbies" />Traveling
+          <input type="checkbox" for="hobbies" />COoking
+        </div>
+
+        <input onclick="alert('form submitted')" type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
